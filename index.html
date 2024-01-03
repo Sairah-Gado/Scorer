@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="main-container">
+            <div class="header">
+                <h1>Score Keeper</h1>
+            </div>
+            <div class="score">
+                <p id="playerOne">0</p>
+                <p>to</p>
+                <p id="playerTwo">0</p>
+            </div>
+            <div class="msg-para">
+                <p>Use the buttons below to keep scores</p>
+            </div>
+            <form action="#">
+                <label for="number">Race to:</label>
+                <select name="number" id="racelimit">
+                  <option value="5">5</option>
+                  <option value="8">8</option>
+                  <option value="10">10</option>
+                  <option value="15">15</option>
+                </select>
+              </form>
+            <div>
+                <button class="btn1">+ Player One</button>
+                <button class="btn2">+ Player Two</button>
+                <button class="btn3">Reset</button>
+            </div>
+        </section>
+        <section class="sec2">
+            <p>"Goals are like milestones on the road to success, each one you achieve brings you closer to your destination. Keep score, stay focused, and celebrate every step forward."</p>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
